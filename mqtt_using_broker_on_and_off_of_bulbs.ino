@@ -10,9 +10,9 @@ char data[100];
 #define CLIENT_ID "homeauto"
 #define port 1883
 
-const char *ssid ="vivo 1915";
-const char *pswd ="prasanna2";
-const char *mqtt_Server="3.225.246.87";
+const char *ssid ="ssid";
+const char *pswd ="pswd";
+const char *mqtt_Server="IP";
 
 WiFiClient espclient;
 PubSubClient client(espclient);
